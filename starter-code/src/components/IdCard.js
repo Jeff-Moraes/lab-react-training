@@ -1,7 +1,5 @@
 import React from "react";
 
-// import "../../public/style.css";
-
 export default function IdCard(props) {
   return (
     <div className="flex box">
@@ -45,7 +43,9 @@ export default function IdCard(props) {
         {props.birth && (
           <p>
             <strong>Birth: </strong>
-            {props.birth.toString()}
+            {props.birth.toString().split(" ").splice(0, 4).join(" ")}
+            <br />
+            {props.birth.toString().slice(0, 15)}
           </p>
         )}
       </div>

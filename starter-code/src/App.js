@@ -36,7 +36,7 @@ class App extends Component {
           picture="https://randomuser.me/api/portraits/women/44.jpg"
         />
         <h1>Greetings</h1>
-        <Greetings lang="de">Ludwig </Greetings>
+        <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
         <h1>Random</h1>
         <Random min={1} max={6} />
@@ -91,7 +91,7 @@ class App extends Component {
           img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
           car={{
             model: "Toyota Corolla Altis",
-            licensePlate: "CO42DE"
+            licensePlate: "CO42DE",
           }}
         />
         <DriverCard
@@ -100,7 +100,7 @@ class App extends Component {
           img="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2017/09/Dara_ELT_Newsroom_1000px.jpg"
           car={{
             model: "Audi A3",
-            licensePlate: "BE33ER"
+            licensePlate: "BE33ER",
           }}
         />
         <h1>LikeButton</h1>
@@ -115,7 +115,7 @@ class App extends Component {
             "https://randomuser.me/api/portraits/women/1.jpg",
             "https://randomuser.me/api/portraits/men/1.jpg",
             "https://randomuser.me/api/portraits/women/2.jpg",
-            "https://randomuser.me/api/portraits/men/2.jpg"
+            "https://randomuser.me/api/portraits/men/2.jpg",
           ]}
         />
         <h1>NumbersTable</h1>
